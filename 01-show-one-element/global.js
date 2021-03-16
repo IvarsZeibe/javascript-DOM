@@ -14,4 +14,10 @@ window.addEventListener("load", function(){
 
   // 5. Also modify the DOM to hide the "More info..." link.
   
+  const showMore = document.querySelector('#more_text_link');
+  showMore.addEventListener('click', function(e){
+    const moreText = document.querySelector('#more_text_content');
+    showMore.style.display = "none";
+    moreText.style.display = "inline";
+  })
 });
