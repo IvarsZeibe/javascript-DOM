@@ -6,4 +6,4 @@
 
 > How did you go about hiding elements initially?
 
-Your reply here...
+Es katru elementu paslēpu piešķirot tiem klasi, kam displaye ir none.
