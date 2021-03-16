@@ -6,7 +6,7 @@
 
 > What are some refactoring techniques you might apply to the provided solution?
 
-Var izveidot funkciju, kurai kā parametrus padod 2 laukus, un ta piešķirt pirmajam laukam EvenetListener, kas aizved uz otro lauku, ja tā garmus ir sasniedzis maksimumu. Šādi:
+Var izveidot funkciju, kurai kā parametrus padod 2 laukus, un funkcija piešķir pirmajam laukam EvenetListener, kas aizved uz otro lauku, ja tā pirmā lauka garmus ir sasniedzis maksimumu. Tas uzlabotu koda, lasāmību un nevajadzētu atkārtot līdzīgu kodu. Funkcija izskatītos šādi:
 ```
 var changeFieldWhenFilled = function(field1, field2){
     field1.addEventListener("input", function(e){

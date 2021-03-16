@@ -18,4 +18,4 @@ Ja tā izdara, tad links tekstu vairs neatklāj. Šī koda jēga ir, lai mājasl
 
 > Describe the the `addEventListener` method. (Remember that there is a specific, technical, methodical way to describe methods. Your reply should match that format.)
 
-`addEventListener` metode uzstāda funkciju, kas tiks izpildīta, kad notiks norādītas atgadījums. Parametri ir notikuma tips, klausītājs, un neobgligāti iestatījumi.
+`addEventListener` metode uzstāda funkciju, kas tiks izpildīta, kad notiks norādītais atgadījums. Parametri ir notikuma tips, klausītājs, un vēl vairāki neobligātie parametri.
