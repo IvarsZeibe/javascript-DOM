@@ -4,6 +4,5 @@ window.addEventListener("load", function(e){
     textbox.addEventListener("input", function(e){
         const greeting = document.querySelector("#greeting");
         greeting.innerHTML = "Sveiks, " + textbox.value + "!";
-        console.log(textbox.textContent);
     })
 })
